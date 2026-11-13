@@ -3,6 +3,6 @@
 - Họ và tên: Vũ Đức Minh
 - MSSV: 2A202603673
 - Lớp: L3A / L3B / khác: L3A
-- Chủ đề và corpus:
+- Chủ đề và corpus: Luật tổ chức chính quyền địa phương tháng 2 và tháng 6/2025
 - Repo bài nộp: repo này
 - Commit chốt bài: commit mới nhất
