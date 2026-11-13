@@ -1,0 +1,165 @@
+vscode ➜ /workspaces/vinuni/K5-L3-Day06-DataIngestionEngineering/starter (main) $ python -m src.run query "thẩm quyền vấn đề liên quan từ 2 đơn vị hành chính cấp xã" --strategy fixed
+1. score=0.7789 | document=luat_72_2025_qh15 | documents/Luat To chuc chinh quyen dia phuong so 72 - T6_2025.pdf page 7
+ quyền địa phương cấp tỉnh, những
+vấn đề liên quan đến phạm vi từ 02 đơn vị hành chính cấp tỉnh trở lên thì thuộc
+thẩm quyền giải quyết của cơ quan nhà nước ở trung ương, trừ trường hợp luật,
+nghị quyết của Quốc hội có quy định khác.
+metadata: {'year': 2025, 'topic': 'to_chuc_chinh_quyen_dia_phuong', 'issuer': 'Quốc hội', 'document_type': 'law', 'document_number': '72/2025/QH15'}
+2. score=0.7549 | document=luat_72_2025_qh15 | documents/Luat To chuc chinh quyen dia phuong so 72 - T6_2025.pdf page 8
+8
+
+Căn cứ tình hình thực tiễn, cơ quan nhà nước có thẩm quyền ở trung ương
+giao cho chính quyền địa phương của một trong các đơn vị hành chính cấp tỉnh
+có liên quan chủ trì giải quyết những vấn đề liên quan đến phạm vi từ 02 đơn vị
+hành chính cấp tỉnh trở lên; chính quyền địa phương cấp tỉnh giao cho chính quyền
+địa phương của một trong các đơn vị hành chính cấp xã có liên quan chủ trì giải
+quyết những vấn đề liên quan đến phạm vi từ 02 đơn vị hành chính cấp xã trở lên
+bảo đảm phát huy hiệu năng, hiệu lực, hiệu quả quản lý nhà nước và phục vụ
+người dân, doanh nghiệp tốt hơn.
+3. Việc phân quyền, phân cấp, quy định nhiệm vụ, quyền hạn của chính
+quyền địa phương, các cơ quan của chính quyền địa phương tại các văn bản
+quy phạm pháp luật phải phù hợp với quy định tại Luật này, bảo đảm quyền
+lực nhà nước được kiểm soát hiệu quả. Trường hợp cần thiết, Ủy ban nhân dân,
+Chủ tịch Ủy ban nhân dân cấp tỉnh trực tiếp chỉ đạo, điều hành việc giải quyết
+những vấn đề thuộc nhiệm vụ, quyền hạn của cơ quan chuyên môn, tổ chức
+hành chính khác thuộc Ủy ban nhân dân cấp mình, Ủy ban nhân dân, Chủ tịch
+Ủy ban nhân dân cấp xã, không để việc giải quyết công việc, thủ tục hành chính
+đối với người dân, doan
+metadata: {'year': 2025, 'topic': 'to_chuc_chinh_quyen_dia_phuong', 'issuer': 'Quốc hội', 'document_type': 'law', 'document_number': '72/2025/QH15'}
+3. score=0.7510 | document=luat_72_2025_qh15 | documents/Luat To chuc chinh quyen dia phuong so 72 - T6_2025.pdf page 51
+hức tạp thì Chủ tịch Ủy ban nhân dân cấp tỉnh
+căn cứ quy định tại điểm g khoản 2 và khoản 3 Điều 11 của Luật này có trách
+nhiệm chỉ đạo việc giải quyết.
+Trường hợp văn bản quy phạm pháp luật của Chính phủ quy định về phân
+quyền, phân cấp, phân định thẩm quyền của chính quyền địa phương được giao
+tại khoản 1 Điều này đã có quy định về việc giải quyết đối với các công việc, thủ
+tục quy định tại khoản này thì thực hiện theo quy định của Chính phủ.
+9. Trường hợp cần giải quyết các vấn đề phát sinh khi tổ chức chính quyền địa
+phương cấp tỉnh và cấp xã theo quy định của Luật này thì thực hiện như sau:
+a) Chính phủ xem xét, ban hành văn bản giải quyết hoặc ủy quyền ban hành văn
+bản giải quyết các vấn đề phát sinh thuộc thẩm quyền của Quốc hội, định kỳ hằng quý
+báo cáo Ủy ban Thường vụ Quốc hội và báo cáo Quốc hội tại kỳ họp gần nhất;
+b) Ủy ban Thường vụ Quốc hội, Chính phủ, Thủ tướng Chính phủ, Bộ trưởng,
+Thủ trưởng cơ quan ngang Bộ, Hội đồng nhân dân, Ủy ban nhân dân cấp tỉnh có
+trách nhiệm xem xét, ban hành văn bản hoặc ủy quyền ban hành văn bản để giải
+quyết các vấn đề phát sinh trong phạm vi nhiệm vụ, quyền hạn của mình;
+metadata: {'year': 2025, 'topic': 'to_chuc_chinh_quyen_dia_phuong', 'issuer': 'Quốc hội', 'document_type': 'law', 'document_number': '72/2025/QH15'}
+
+
+
+
+vscode ➜ /workspaces/vinuni/K5-L3-Day06-DataIngestionEngineering/starter (main) $ python -m src.run query "thẩm quyền vấn đề liên quan từ 2 đơn vị hành chính cấp xã" --strategy paragraph
+1. score=0.7649 | document=luat_72_2025_qh15 | documents/Luat To chuc chinh quyen dia phuong so 72 - T6_2025.pdf page 8
+Căn cứ tình hình thực tiễn, cơ quan nhà nước có thẩm quyền ở trung ương
+giao cho chính quyền địa phương của một trong các đơn vị hành chính cấp tỉnh
+có liên quan chủ trì giải quyết những vấn đề liên quan đến phạm vi từ 02 đơn vị
+hành chính cấp tỉnh trở lên; chính quyền địa phương cấp tỉnh giao cho chính quyền
+địa phương của một trong các đơn vị hành chính cấp xã có liên quan chủ trì giải
+quyết những vấn đề liên quan đến phạm vi từ 02 đơn vị hành chính cấp xã trở lên
+bảo đảm phát huy hiệu năng, hiệu lực, hiệu quả quản lý nhà nước và phục vụ
+người dân, doanh nghiệp tốt hơn.
+3. Việc phân quyền, phân cấp, quy định nhiệm vụ, quyền hạn của chính
+quyền địa phương, các cơ quan của chính quyền địa phương tại các văn bản
+quy phạm pháp luật phải phù hợp với quy định tại Luật này, bảo đảm quyền
+lực nhà nước được kiểm soát hiệu quả. Trường hợp cần thiết, Ủy
+metadata: {'year': 2025, 'topic': 'to_chuc_chinh_quyen_dia_phuong', 'issuer': 'Quốc hội', 'document_type': 'law', 'document_number': '72/2025/QH15'}
+2. score=0.7544 | document=luat_72_2025_qh15 | documents/Luat To chuc chinh quyen dia phuong so 72 - T6_2025.pdf page 6
+đổi tên đơn vị hành chính cấp xã
+thì gửi Hội đồng nhân dân cấp tỉnh và Hội đồng nhân dân cấp xã ở các đơn vị
+hành chính có liên quan trực tiếp để xem xét, cho ý kiến.
+5. Đề án thành lập, giải thể, nhập, chia đơn vị hành chính, điều chỉnh địa giới
+và đổi tên đơn vị hành chính do Ủy ban nhân dân cấp tỉnh xây dựng phải được
+thẩm định trước khi trình Chính phủ và được thẩm tra trước khi trình Quốc hội,
+Ủy ban Thường vụ Quốc hội xem xét, quyết định.
+6. Việc lập đề án, trình tự, thủ tục xem xét, thông qua đề án thành lập, giải
+thể, nhập, chia đơn vị hành chính, điều chỉnh địa giới và đổi tên đơn vị hành chính
+thực hiện theo quy định của Ủy ban Thường vụ Quốc hội ; trình tự, thủ tục xem
+xét, thông qua đề án thành lập, giải thể, nhập, chia đơn vị hành chính, điều chỉnh
+địa giới và đổi tên đơn vị hành chính cấp tỉnh tại kỳ họp Quốc hội do Quốc hội
+quy định.
+metadata: {'year': 2025, 'topic': 'to_chuc_chinh_quyen_dia_phuong', 'issuer': 'Quốc hội', 'document_type': 'law', 'document_number': '72/2025/QH15'}
+3. score=0.7514 | document=luat_72_2025_qh15 | documents/Luat To chuc chinh quyen dia phuong so 72 - T6_2025.pdf page 51
+ịnh tại điểm g khoản 2 và khoản 3 Điều 11 của Luật này có trách
+nhiệm chỉ đạo việc giải quyết.
+Trường hợp văn bản quy phạm pháp luật của Chính phủ quy định về phân
+quyền, phân cấp, phân định thẩm quyền của chính quyền địa phương được giao
+tại khoản 1 Điều này đã có quy định về việc giải quyết đối với các công việc, thủ
+tục quy định tại khoản này thì thực hiện theo quy định của Chính phủ.
+9. Trường hợp cần giải quyết các vấn đề phát sinh khi tổ chức chính quyền địa
+phương cấp tỉnh và cấp xã theo quy định của Luật này thì thực hiện như sau:
+a) Chính phủ xem xét, ban hành văn bản giải quyết hoặc ủy quyền ban hành văn
+bản giải quyết các vấn đề phát sinh thuộc thẩm quyền của Quốc hội, định kỳ hằng quý
+báo cáo Ủy ban Thường vụ Quốc hội và báo cáo Quốc hội tại kỳ họp gần nhất;
+b) Ủy ban Thường vụ Quốc hội, Chính phủ, Thủ tướng Chính phủ, Bộ trưởng,
+Thủ trưởng cơ quan ngang Bộ, Hội đồng nhân dân, Ủy ban nhân dân cấp tỉnh có
+trách nhiệm xem xét, ban hành văn bản hoặc ủy quyền ban hành văn bản để giải
+quyết các vấn đề phát sinh trong phạm vi nhiệm vụ, quyền hạn của mình;
+metadata: {'year': 2025, 'topic': 'to_chuc_chinh_quyen_dia_phuong', 'issuer': 'Quốc hội', 'document_type': 'law', 'document_number': '72/2025/QH15'}
+
+
+
+
+vscode ➜ /workspaces/vinuni/K5-L3-Day06-DataIngestionEngineering/starter (main) $ python -m src.run query "Ai đình chỉ văn bản trái pháp luật" --strategy paragraph
+1. score=0.7409 | document=luat_72_2025_qh15 | documents/Luat To chuc chinh quyen dia phuong so 72 - T6_2025.pdf page 52
+c) Cơ quan, người có thẩm quyền quy định tại điểm a và điểm b khoản này
+có thể ban hành văn bản hành chính để hướng dẫn giải quyết các vấn đề phát sinh;
+đồng thời tổ chức xây dựng, ban hành văn bản quy phạm pháp luật theo thẩm
+quyền hoặc trình cơ quan, người có thẩm quyền sửa đổi, bổ sung, ban hành văn
+bản quy phạm pháp luật để điều chỉnh nội dung quy định tại văn bản hành chính
+hoặc nội dung đã ủy quyền ban hành.
+Văn bản hành chính, văn bản được ban hành theo ủy quyền phải được cơ
+quan, người có thẩm quyền đã ban hành văn bản đó bãi bỏ ngay khi văn bản quy
+phạm pháp luật do cơ quan, người có thẩm quyền ban hành có hiệu lực thi hành;
+d) Văn bản của cơ quan, người có thẩm quyền quy định tại các điểm a, b và
+c khoản này hết hiệu lực thi hành kể từ ngày 01 tháng 3 năm 2027 hoặc kể từ ngày
+văn bản quy phạm pháp luật do cơ quan, người có thẩm quyền ban hành để thay
+thế có hiệu lực thi hành, tùy thuộc thời điểm nào đến trước.
+10. Việc ba
+metadata: {'year': 2025, 'topic': 'to_chuc_chinh_quyen_dia_phuong', 'issuer': 'Quốc hội', 'document_type': 'law', 'document_number': '72/2025/QH15'}
+2. score=0.7312 | document=luat_72_2025_qh15 | documents/Luat To chuc chinh quyen dia phuong so 72 - T6_2025.pdf page 13
+đ) Đình chỉ việc thi hành, bãi bỏ một phần hoặc toàn bộ văn bản trái pháp
+luật của Ủy ban nhân dân, Chủ tịch Ủy ban nhân dân cùng cấp; bãi bỏ một phần
+hoặc toàn bộ văn bản trái pháp luật của Hội đồng nhân dân cấp xã;
+e) Giải tán Hội đồng nhân dân cấp xã trong trường hợp Hội đồng nhân dân
+đó làm thiệt hại nghiêm trọng đến lợi ích của Nhân dân và trình Ủy ban Thường
+vụ Quốc hội phê chuẩn.
+2. Trong lĩnh vực tổ chức bộ máy và xây dựng chính quyền:
+a) Quyết định biên chế cán bộ, công chức trong các cơ quan của chính quyền
+địa phương cấp mình và tổng biên chế cán bộ, công chức của chính quyền địa
+phương cấp xã, số lượng người làm việc hưởng lương từ ngân sách nhà nước trong
+các đơn vị sự nghiệp công lập thuộc phạm vi quản lý của địa phương theo chỉ tiêu
+biên chế được cấp có thẩm quyền giao theo quy định của
+metadata: {'year': 2025, 'topic': 'to_chuc_chinh_quyen_dia_phuong', 'issuer': 'Quốc hội', 'document_type': 'law', 'document_number': '72/2025/QH15'}
+3. score=0.7198 | document=luat_72_2025_qh15 | documents/Luat To chuc chinh quyen dia phuong so 72 - T6_2025.pdf page 19
+17. Phê chuẩn kết quả bầu, miễn nhiệm, bãi nhiệm và quyết định điều động,
+cách chức Chủ tịch, Phó Chủ tịch Ủy ban nhân dân cấp xã; giao quyền Chủ tịch Ủy
+ban nhân dân cấp xã; quyết định tạm đình chỉ công tác đối với Phó Chủ tịch Ủy ban
+nhân dân cấp mình, Chủ tịch Ủy ban nhân dân cấp xã; quyết định bổ nhiệm, điều
+động, tạm đình chỉ, cách chức người đứng đầu cơ quan chuyên môn, tổ chức hành
+chính khác thuộc Ủy ban nhân dân cấp mình, người đứng đầu đơn vị sự nghiệp
+công lập trực thuộc Ủy ban nhân dân cấp mình.
+18. Ban hành quyết định, chỉ thị và các văn bản hành chính khác về những
+vấn đề thuộc nhiệm vụ, quyền hạn của mình; bãi bỏ, sửa đổi, bổ sung, thay thế
+văn bản do mình ban hành khi xét thấy không còn phù hợp hoặc trái pháp luật.
+19. Đình chỉ việc thi hành, bãi bỏ một phần hoặc toàn bộ văn bản trái pháp
+luật của cơ quan chuyên môn thuộc Ủy ban nhân dân cấp mình và văn bản trái
+pháp luật của Ủy ban nh
+metadata: {'year': 2025, 'topic': 'to_chuc_chinh_quyen_dia_phuong', 'issuer': 'Quốc hội', 'document_type': 'law', 'document_number': '72/2025/QH15'}
+
+
+vscode ➜ /workspaces/vinuni/K5-L3-Day06-DataIngestionEngineering/starter (main) $ python -m src.run query "Ai đình chỉ văn bản trái pháp luật" --strategy paragraph
+1. score=0.7409 | document=luat_72_2025_qh15 | documents/Luat To chuc chinh quyen dia phuong so 72 - T6_2025.pdf page 52
+c) Cơ quan, người có thẩm quyền quy định tại điểm a và điểm b khoản này
+có thể ban hành văn bản hành chính để hướng dẫn giải quyết các vấn đề phát sinh;
+đồng thời tổ chức xây dựng, ban hành văn bản quy phạm pháp luật theo thẩm
+quyền hoặc trình cơ quan, người có thẩm quyền sửa đổi, bổ sung, ban hành văn
+bản quy phạm pháp luật để điều chỉnh nội dung quy định tại văn bản hành chính
+hoặc nội dung đã ủy quyền ban hành.
+Văn bản hành chính, văn bản được ban hành theo ủy quyền phải được cơ
+quan, người có thẩm quyền đã ban hành văn bản đó bãi bỏ ngay khi văn bản quy
+phạm pháp luật do cơ quan, người có thẩm quyền ban hành có hiệu lực thi hành;
+
+vscode ➜ /workspaces/vinuni/K5-L3-Day06-DataIngestionEngineering/starter (main) $ python -m src.run test --strategy all
+fixed: dev Hit@1 5/14 (35.7%), Hit@3 10/14 (71.4%); test Hit@1 4/6 (66.7%), Hit@3 4/6 (66.7%)
+paragraph: dev Hit@1 7/14 (50.0%), Hit@3 10/14 (71.4%); test Hit@1 3/6 (50.0%), Hit@3 4/6 (66.7%)
+Appended experiment metrics to /workspaces/vinuni/K5-L3-Day06-DataIngestionEngineering/artifacts/experiment_log.csv
