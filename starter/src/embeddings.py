@@ -50,16 +50,17 @@ class MyEmbedder:
         if any(not text.strip() for text in texts):
             raise ValueError("texts must not contain empty strings")
 
-        requests = []
-        for text in texts:
-            contents, config = self._format_input(text, "RETRIEVAL_DOCUMENT")
-            requests.append({
-                "contents": contents,
-                "config": config,
-            })
+        first_content, config = self._format_input(
+            texts[0], "RETRIEVAL_DOCUMENT"
+        )
+        contents = [first_content]
+        for text in texts[1:]:
+            content, _ = self._format_input(text, "RETRIEVAL_DOCUMENT")
+            contents.append(content)
+
         job = self._client.batches.create_embeddings(
             model=self.model_name,
-            src={"inlined_requests": requests},
+            src={"inlined_requests": {"contents": contents, "config": config}},
             config={"display_name": f"{self.model_name}-document-embeddings"},
         )
         if not job.name:
@@ -81,9 +82,9 @@ class MyEmbedder:
         if state != "JOB_STATE_SUCCEEDED":
             raise RuntimeError(f"Embedding batch {job.name!r} ended with state {state!r}")
 
-        if job.dest is None or job.dest.inlined_responses is None:
+        if job.dest is None or job.dest.inlined_embed_content_responses is None:
             raise RuntimeError(f"Embedding batch {job.name!r} returned no inline responses")
-        responses = job.dest.inlined_responses
+        responses = job.dest.inlined_embed_content_responses
         if len(responses) != len(texts):
             raise RuntimeError(
                 f"Embedding batch returned {len(responses)} responses for {len(texts)} inputs"
@@ -93,9 +94,9 @@ class MyEmbedder:
         for response in responses:
             if response.error is not None:
                 raise RuntimeError(f"Embedding batch request failed: {response.error}")
-            if response.response is None or not response.response.embeddings:
+            if response.response is None or response.response.embedding is None:
                 raise RuntimeError("Embedding batch returned a response without an embedding")
-            values = response.response.embeddings[0].values
+            values = response.response.embedding.values
             if values is None or len(values) != self.dimensions:
                 actual_dimensions = len(values) if values is not None else 0
                 raise RuntimeError(
