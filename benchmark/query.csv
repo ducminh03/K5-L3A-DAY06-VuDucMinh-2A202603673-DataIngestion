@@ -1,0 +1,21 @@
+﻿id;split;question;expected_answer;gold_source_id;gold_page;evidence_quote
+1;dev;công chức cấp xã ký thừa ủy quyền sử dụng con dấu nào;Con dấu của Ủy ban nhân dân cấp xã.;luat_72_2025_qh15;12;“được sử dụng con dấu của Ủy ban nhân dân cấp xã”
+2;dev;Quốc hội thẩm quyền đơn vị hành chính cấp tỉnh;Thành lập, giải thể, nhập, chia, điều chỉnh địa giới và đổi tên.;luat_72_2025_qh15;5;“Quốc hội quyết định thành lập, giải thể, nhập, chia… cấp tỉnh.”
+3;dev;phân cấp có được phân cấp tiếp không;Không.;luat_72_2025_qh15;9;“không được phân cấp tiếp nhiệm vụ, quyền hạn mà mình được phân cấp”
+4;dev;thay đổi đơn vị hành chính lấy ý kiến Nhân dân;Nhân dân ở các đơn vị hành chính cấp xã chịu ảnh hưởng trực tiếp.;luat_72_2025_qh15;6;“phải được lấy ý kiến Nhân dân ở những đơn vị hành chính cấp xã chịu ảnh hưởng trực tiếp”
+5;dev;các cấp đơn vị hành chính Việt Nam;"Cấp tỉnh; và cấp xã.";luat_72_2025_qh15;1;"“Tỉnh, thành phố trực thuộc trung ương…; Xã, phường, đặc khu trực thuộc cấp tỉnh”"
+6;dev;Cá nhân, cơ quan đình chỉ văn bản trái pháp luật;"Cơ quan chuyên môn thuộc UBND cấp mình; UBND cấp xã; và Chủ tịch UBND cấp xã.";luat_72_2025_qh15;19;“Đình chỉ việc thi hành… văn bản trái pháp luật của cơ quan chuyên môn… và… của Ủy ban nhân dân, Chủ tịch Ủy ban nhân dân cấp xã.”
+7;dev;cơ quan thành lập đơn vị hành chính kinh tế đặc biệt;Quốc hội.;luat_72_2025_qh15;1;“do Quốc hội quyết định thành lập”
+8;dev;chính quyền địa phương gồm những cơ quan nào;Hội đồng nhân dân và Ủy ban nhân dân.;luat_72_2025_qh15;1;“gồm có Hội đồng nhân dân và Ủy ban nhân dân”
+9;dev;cơ quan bầu Ủy ban nhân dân cùng cấp;Hội đồng nhân dân cùng cấp.;luat_72_2025_qh15;3;“Ủy ban nhân dân… do Hội đồng nhân dân cùng cấp bầu ra”
+10;dev;phân quyền chính quyền địa phương quy định trong văn bản nào;Luật hoặc nghị quyết của Quốc hội.;luat_72_2025_qh15;8;“phải được quy định trong luật, nghị quyết của Quốc hội”
+11;dev;nhận ủy quyền đề nghị điều chỉnh nội dung ủy quyền;Nội dung, phạm vi và thời hạn ủy quyền.;luat_72_2025_qh15;11;“có quyền đề nghị… điều chỉnh nội dung, phạm vi, thời hạn ủy quyền”
+12;dev;nhận ủy quyền có được ủy quyền tiếp không;Không.;luat_72_2025_qh15;11;“không được ủy quyền tiếp nhiệm vụ, quyền hạn mà mình được ủy quyền”
+13;dev;ai được mời dự kỳ họp Hội đồng nhân dân;Chủ tịch Ủy ban Mặt trận Tổ quốc Việt Nam và người đứng đầu tổ chức chính trị - xã hội ở địa phương.;luat_72_2025_qh15;4;“được mời tham dự các kỳ họp Hội đồng nhân dân”
+14;dev;Việt Nam có bao nhiêu cấp đơn vị hành chính;02 cấp.;luat_72_2025_qh15;1;“được tổ chức thành 02 cấp”
+15;test;cơ quan quyết định thay đổi đơn vị hành chính cấp xã;Ủy ban Thường vụ Quốc hội.;luat_72_2025_qh15;5;“Ủy ban Thường vụ Quốc hội quyết định… cấp xã.”
+16;test;nhiệm kỳ Hội đồng nhân dân bao lâu;05 năm.;luat_72_2025_qh15;3;“Nhiệm kỳ của mỗi khóa Hội đồng nhân dân là 05 năm”
+17;test;thẩm quyền vấn đề liên quan từ 2 đơn vị hành chính cấp xã;Chính quyền địa phương cấp tỉnh.;luat_72_2025_qh15;7;“thuộc thẩm quyền giải quyết của chính quyền địa phương cấp tỉnh”
+18;test;Hội đồng nhân dân quyết định theo nguyên tắc nào;Theo đa số.;luat_72_2025_qh15;2;“Hoạt động theo chế độ tập thể, quyết định theo đa số.”
+19;test;nội dung bắt buộc của văn bản ủy quyền;Nội dung, phạm vi, thời hạn, cách thức thực hiện và điều kiện cần thiết.;luat_72_2025_qh15;10;“xác định cụ thể nội dung, phạm vi và thời hạn… cách thức thực hiện và các điều kiện cần thiết”
+20;test;tiêu chí phân loại đơn vị hành chính;Quy mô dân số, diện tích tự nhiên, điều kiện phát triển kinh tế - xã hội và các yếu tố đặc thù.;luat_72_2025_qh15;2;“quy mô dân số, diện tích tự nhiên, điều kiện phát triển kinh tế - xã hội và các yếu tố đặc thù”
